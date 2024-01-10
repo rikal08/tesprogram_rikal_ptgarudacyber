@@ -1,0 +1,44 @@
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding-top: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar-heading {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.sidebar-item:hover {
+    background: #495057;
+}
+
+.sidebar-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar-item.active {
+    background: #495057;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+/* Add your custom styles as needed */
